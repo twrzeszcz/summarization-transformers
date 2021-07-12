@@ -1,1 +1,2 @@
-# summarization-transformers
+# General Info
+This repo contains a notebook used for fine-tuning a pretrained model from *transformers* library for summarization. Summarization was done on the abstracts of scientific papers related to optics and titles were used as targets. Model was trained only for 10 epochs due to the limited resources and speed (Google Colab). Data was taken from [kaggle](https://www.kaggle.com/Cornell-University/arxiv). Model is hosted on the [huggingface](https://huggingface.co/Tymoteusz/optics-abstracts-summarization).
